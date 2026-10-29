@@ -4,9 +4,9 @@ Aplicación Android en Java para consultar y registrar reportes de acumulación 
 
 ## Ejecutar
 
-Abre esta carpeta en Android Studio, sincroniza Gradle e inicia un emulador. La app está configurada por defecto para conectarse a una API local mediante `http://10.0.2.2:8080/`; primero debe estar ejecutándose `reporteservice`.
+Abre esta carpeta en Android Studio, sincroniza Gradle e inicia un emulador. La aplicación se conecta a la API pública de Render en `https://reporteservice-monja.onrender.com/`.
 
-Para usar Render, cambia `BASE_URL` en `app/src/main/java/com/monja/reportesapp/ApiClient.java` por la URL HTTPS pública de la API, con barra final.
+Para volver a usar una API local, cambia `BASE_URL` en `app/src/main/java/com/monja/reportesapp/ApiClient.java` a `http://10.0.2.2:8080/` y ejecuta `reporteservice` localmente.
 
 ## Funciones
 

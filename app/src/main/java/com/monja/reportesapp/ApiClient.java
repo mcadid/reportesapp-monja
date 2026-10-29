@@ -4,8 +4,8 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 public final class ApiClient {
-    // Para Render, reemplazar por la URL HTTPS pública terminada en /.
-    private static final String BASE_URL = "http://10.0.2.2:8080/";
+    // API pública desplegada en Render.
+    private static final String BASE_URL = "https://reporteservice-monja.onrender.com/";
     private static ApiService service;
     private ApiClient() {}
     public static String baseUrl() { return BASE_URL; }
