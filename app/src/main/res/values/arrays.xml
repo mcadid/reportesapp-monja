@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="tipos_reporte">
+        <item>DOMICILIARIA</item>
+        <item>DESMONTE</item>
+        <item>MALEZA</item>
+        <item>OTRO</item>
+    </string-array>
+</resources>
